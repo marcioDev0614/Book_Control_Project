@@ -1,0 +1,34 @@
+﻿@model LivroModel
+
+@{
+    ViewData["Title"] = "Cadastrar livro";
+ }
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar livro</h1>
+
+</div>
+
+<form asp-controller="Livro" asp-action="Criar" method="post">
+
+    <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" asp-for="Titulo" class="form-control" placeholder="Digite o titulo do livro">
+        @Html.ValidationMessageFor(x => x.Titulo)
+    </div>
+    <div class="form-group">
+        <label for="escritor">Escritor</label>
+        <input type="text" asp-for="Escritor" class="form-control" placeholder="Digite o nome do escritor">
+        @Html.ValidationMessageFor(x => x.Escritor)
+    </div>
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <input type="text" asp-for="Descricao" class="form-control" placeholder="Digite uma breve descrição">
+        @Html.ValidationMessageFor(x => x.Descricao)
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
+    <a class="btn badge-secondary btn-block" asp-controller="Livro" asp-action="Index" role="button">Voltar</a>
+</form>
+

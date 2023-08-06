@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projeto_Asp.Net_Controle_Contatos_20_03_2023\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros.csproj": {}
+  },
+  "projects": {
+    "E:\\Projeto_Asp.Net_Controle_Contatos_20_03_2023\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projeto_Asp.Net_Controle_Contatos_20_03_2023\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros.csproj",
+        "projectName": "ControleDeCadastroDeLivros",
+        "projectPath": "E:\\Projeto_Asp.Net_Controle_Contatos_20_03_2023\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros.csproj",
+        "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeto_Asp.Net_Controle_Contatos_20_03_2023\\ControleDeCadastroDeLivros\\ControleDeCadastroDeLivros\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Basis Tecnologia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
